@@ -4,7 +4,7 @@ body {
     font-size: large;
 }
 .bg-image {
-    height: 1000px;
+    height: 500px;
     background-size: auto;
     background-position: center;
     background-attachment: fixed;
@@ -16,6 +16,7 @@ h1 {
 }
 .container {
     padding: 80px;
+    padding-top: 10px;
 }
 
 @media (max-width: 900px) {
