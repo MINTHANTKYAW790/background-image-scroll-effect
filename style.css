@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: large;
+}
+.bg-image {
+    height: 1000px;
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+
+    background-image: url(https://plus.unsplash.com/premium_photo-1670596899123-c4c67735d77a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+h1 {
+    font-family: cursive;
+}
+.container {
+    padding: 80px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        padding: 10px;
+    }
+}
